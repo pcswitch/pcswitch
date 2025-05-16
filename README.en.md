@@ -75,9 +75,9 @@ Currently only Alibaba Cloud Intelligent Voice is connected, and Alibaba Cloud "
 2. WebRTC registration
 ![Enter image description](images/20250411153431.png)
 3. Backend management
-![Enter image description](images/20250411153513.png)
+![Enter image description](images/20250516132532.png)
 4. Visual configuration of incoming call rules
-![Enter image description](images/20250411153535.png)
+![Enter image description](images/20250516132751.png)
 5. ASR, TTS process
 ![Enter image description](images/asrtts.png)
 
