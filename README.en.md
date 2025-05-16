@@ -19,7 +19,7 @@
 4. Supports multi-tenant mode, the free version only opens 1 organization
 5. Supports IVR, incoming call queue, time judgment, etc.
 6. Incoming call rules are configured visually, easy to operate
-7. Support custom customer information, allowing for the addition, reduction, and modification of fields at will
+7. Support custom customer information, allowing for the addition, reduction, and modification of field information at will
 
 #### Installation tutorial
 1. The installation package download address is: https://pan.baidu.com/s/1ZvH6sjthjIcqa2Ygx76N8A?pwd=6t59
