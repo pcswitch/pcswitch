@@ -1,87 +1,98 @@
 # pcswitch
 
-#### Introduction
+####Introduction
 
-- pcswitch call system, free to use forever, supports ASR (speech recognition), TTS (speech synthesis), custom voice robot, webRTC, IVR, incoming queue, visual management of incoming process, customizable fields for customer information, etc.
-- Official website: [https://www.pcswitch.cn](https://www.pcswitch.cn)
-- Trial website: [https://demo.pcswitch.cn](https://demo.pcswitch.cn)
+-PCSwitch call system, permanently free to use, supports intelligent robots (using Deepseek interface), web interface (accessing other systems), ASR (speech recognition), TTS (speech synthesis), custom voice robots webRTC、IVR、 Inbound queue, inbound process visualization management, customizable fields for customer information, and more
+-Official website:[ https://www.pcswitch.cn ]( https://www.pcswitch.cn )
+-Trial URL:[ https://demo.pcswitch.cn ]( https://demo.pcswitch.cn )
 
-#### Software architecture
 
-- Front-end: using vue+elementUI
-- Back-end: developed in golang language
-- Bottom layer: using freeswitch for secondary development
+####Software Architecture
 
-### System functions
-1. Support ASR (speech recognition), TTS (speech synthesis), customizable voice robot
-2. Support multiple client types, including: webRTC, sip client
-3. Support static seats and dynamic seats
-4. Supports multi-tenant mode, the free version only opens 1 organization
-5. Supports IVR, incoming call queue, time judgment, etc.
-6. Incoming call rules are configured visually, easy to operate
-7. Support custom customer information, allowing for the addition, reduction, and modification of field information at will
+-Front end: using Vue+elementUI
+-Backend: Developed using Golang language
+-Bottom layer: Using Freeswitch for secondary development simultaneously
 
-#### Installation tutorial
+
+###System functions
+1. Support intelligent robots (using Deepseek interface) and web interfaces (accessing other systems)
+2. Supports ASR (speech recognition), TTS (speech synthesis), and customizable speech robots
+3. Supports multiple client types, including webRTC and SIP clients
+4. Support static and dynamic seating
+5. Supports multi tenant mode, the free version is only open to one organization
+6. Support IVR, incoming queue, time judgment, etc
+7. The incoming call rule adopts visual configuration, which is easy to operate
+8. Support custom customer information, allowing for the addition, reduction, and modification of field information at will
+
+####Installation tutorial
 1. The installation package download address is: https://pan.baidu.com/s/1ZvH6sjthjIcqa2Ygx76N8A?pwd=6t59
-2. It is recommended to use the centos7.9 operating system for installation
+2. It is recommended to use CentOS 7.9 operating system for installation
 3. Download the pcswitch installation package
-4. Unzip pcswitch, for example, unzip to: /opt directory
+4. Extract pcswitch, for example, to the/opt directory
 5. Run the following command to install:
 ./pcs_cli install
-6. After successful installation, start the system service
+6. After successful installation, enable system services
 ./pcs_cli start
 7. Stop all services
 ./pcs_cli stop
-8. View the help command
+8. View Help Command
 ./pcs_cli -h
 9. Certificate replacement method
 
 ```
-1) Replace the web certificate
-The certificate storage path is: config/web/cert
-You can replace server.key and server.cert with new certificates, please keep the file name unchanged!
-Note: If you change the certificate file name, you need to change the certificate name in the config/web/nginx.conf file together
-Restart the web service
-#./pcs_cli restart web
-Check whether the certificate is effective
+1) Replace web certificate
+The certificate storage path is: config/web/char
+You can replace 'server. key' and 'server. char' with new certificates, please keep the file names unchanged!  
+Note: If you want to change the certificate file name, you need to replace the certificate name in the config/web/ginx.conf file together
+Restart web service
+#. /pcs_cli restart web
+Check if the certificate is valid
 
-2) Replace the core certificate
-The certificate storage path is: data/core/certs
-Delete dtls-strp.pem and wss.pem
-Merge the certificate key and crt into: wss.pem, and then store it in the data/core/certs directory, as follows:
+2) Replace core certificate
+The certificate storage path is: data/core/credits
+Delete dtls strp.pem and wss.tem
+Merge the certificate key and CRT into: wss.tem, and store it in the data/core/credits directory as follows:
 #cat server.key server.crt > wss.pem
 Restart the service
-#./pcs_cli restart core
+#. /pcs_cli restart core
 
 ```
 10. Intelligent voice configuration
-Currently only Alibaba Cloud Intelligent Voice is connected, and Alibaba Cloud "Intelligent Voice Interaction" service needs to be activated
-1) AccessKey ID, AccessKey Secret creation method
-[Create AccessKey Alibaba Cloud Document](https://help.aliyun.com/zh/ram/user-guide/create-an-accesskey-pair?spm=a2c4g.11186623.help-menu-28625.d_2_6_0.72f52c6aBsQZDH)
-2) How to obtain Appkey, first create a project, then obtain it on the project management page
-[Alibaba Cloud Document](https://help.aliyun.com/zh/isi/getting-started/manage-projects?spm=a2c4g.11186623.help-menu-30413.d_1_1.54f220d0aZccXv)
-3) After creation, you can call it in the "Incoming Process" and voice file
+At present, only Alibaba Cloud Intelligent Voice has been connected, and Alibaba Cloud's "Intelligent Voice Interaction" service needs to be activated
+1) Method for creating AccessKey ID and AccessKey Secret
+[Create AccessKey Alibaba Cloud document]（ https://help.aliyun.com/zh/ram/user-guide/create-an-accesskey-pair?spm=a2c4g.11186623.help -menu-28625.d_2_6_0.72f52c6aBsQZDH)
+2) The method to obtain Appkey is to first create a project, and then access it on the project management page
+[Alibaba Cloud Document]（ https://help.aliyun.com/zh/isi/getting-started/manage-projects?spm=a2c4g.11186623.help -menu-30413.d_1_1.54f220d0aZccXv)
+3) After creation, it can be called in the "incoming call process" and voice file
+11. Intelligent robots
+The intelligent robot adopts the Deepseek interface. However, due to the lack of stream mode and the relatively long return time of Deepseek, the intelligent robot currently needs to wait for some time during conversations. It is recommended to use private deployment of DeepSeek for production environments, while training models for specific environments.
 
-#### Instructions
+####Instructions for use
 
-1. This version is a free version. After installation, the system has been initialized and configured, including 3 extensions, etc.
-2. The system uses a private certificate by default, which can be replaced by a formal certificate
-3. The system does not configure a gateway by default, and users need to configure the gateway by themselves
+1. This version is a free version, and the system has been initialized and configured after installation, including 3 extensions, etc
+2. The system defaults to using private certificates, which users can replace with official certificates
+3. The system does not have a gateway configured by default, and users need to configure the gateway themselves
 4. Default account/password: admin/a2f55ef976bcf8b0ae
 
-#### System display
+####System Display
 1. Login interface
-![Enter image description](images/20250411153349.png)
+! [Enter image description] (images/20250411153349. png)
 2. WebRTC registration
-![Enter image description](images/20250411153431.png)
+! [Enter image description] (images/20250411153431. png)
 3. Backend management
-![Enter image description](images/20250516132532.png)
-4. Visual configuration of incoming call rules
-![Enter image description](images/20250516132751.png)
-5. ASR, TTS process
-![Enter image description](images/asrtts.png)
+! [Enter image description] (images/20250516132532. png)
+4. Visualization configuration of incoming call rules
+! [Enter image description] (images/20250516132751. png)
+5. ASR and TTS processes
+! [Enter image description] (images/asrttspng)
+6. Intelligent robots
+! [Enter image description] (images/robot. png)
+7. Web interface
+! [Enter image description] (images/web. png)
 
-#### Problem feedback
+####Problem feedback
 
-- WeChat: ![Enter image description](images/wx.png)
-- Email address: kf@pcswitch.cn
+-WeChat:! [Input Image Description] (images/wx. png)
+-Email address: kf@pcswitch.cn
+
+
