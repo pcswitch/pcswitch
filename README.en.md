@@ -26,7 +26,7 @@
 
 ####Installation tutorial
 1. The installation package download address is: https://pan.baidu.com/s/1ZvH6sjthjIcqa2Ygx76N8A?pwd=6t59
-2. It is recommended to use CentOS 7.9 operating system for installation
+2. It is recommended to use CentOS or Rocky operating system for installation
 3. Download the pcswitch installation package
 4. Extract pcswitch, for example, to the/opt directory
 5. Run the following command to install:
@@ -79,15 +79,17 @@ The intelligent robot adopts the Deepseek interface. However, due to the lack of
 ! [Enter image description] (images/20250411153349. png)
 2. WebRTC registration
 ! [Enter image description] (images/20250411153431. png)
-3. Backend management
+3.Pop On Screen
+![输入图片说明](images/20250713.png)
+4. Backend management
 ! [Enter image description] (images/20250516132532. png)
-4. Visualization configuration of incoming call rules
+5. Visualization configuration of incoming call rules
 ! [Enter image description] (images/20250516132751. png)
-5. ASR and TTS processes
+6. ASR and TTS processes
 ! [Enter image description] (images/asrttspng)
-6. Intelligent robots
+7. Intelligent robots
 ! [Enter image description] (images/robot. png)
-7. Web interface
+8. Web interface
 ! [Enter image description] (images/web. png)
 
 ####Problem feedback

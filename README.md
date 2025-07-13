@@ -26,7 +26,7 @@
 
 #### 安装教程
 1. 安装包下载地址为：https://pan.baidu.com/s/1ZvH6sjthjIcqa2Ygx76N8A?pwd=6t59
-2. 推荐使用centos7.9操作系统安装
+2. 推荐使用Centos或Rocky操作系统安装
 3. 下载pcswitch安装包
 4. 将pcswitch解压，比如解压到：/opt目录中
 5. 运行如下命令安装：
@@ -79,15 +79,17 @@
 ![输入图片说明](images/20250411153349.png)
 2. webRTC注册
 ![输入图片说明](images/20250411153431.png)
-3. 后台管理
+3.来电弹屏
+![输入图片说明](images/20250713.png)
+4. 后台管理
 ![输入图片说明](images/20250516132532.png)
-4. 呼入规则可视化配置
+5. 呼入规则可视化配置
 ![输入图片说明](images/20250516132751.png)
-5. ASR、TTS流程
+6. ASR、TTS流程
 ![输入图片说明](images/asrtts.png)
-6. 智能机器人
+7. 智能机器人
 ![输入图片说明](images/robot.png)
-7. web接口
+8. web接口
 ![输入图片说明](images/web.png)
 
 #### 问题反馈
