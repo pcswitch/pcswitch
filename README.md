@@ -2,7 +2,7 @@
 
 #### 介绍
 
-- pcswitch呼叫系统，永久免费使用，支持智能机器人(采用deepseek接口)、web接口(访问其他系统)、ASR(语音识别)、TTS(语音合成)、自定义语音机器人、webRTC、IVR、呼入队列、呼入流程可视化管理、客户资料可自定义字段等等
+- pcswitch呼叫系统，永久免费使用，支持智能机器人(采用deepseek接口)、web接口(访问其他系统)、ASR(语音识别)、TTS(语音合成)、自定义语音机器人、webRTC、IVR、呼入队列、呼入流程可视化管理、通话评价、IP白名单、客户资料可自定义字段等等
 - 官网：[https://www.pcswitch.cn](https://www.pcswitch.cn)
 - 试用网址：[https://demo.pcswitch.cn](https://demo.pcswitch.cn)
 
@@ -11,7 +11,8 @@
 
 - 前端：采用vue+elementUI
 - 后端：采用golang语言开发
-- 底层：采用freeswitch同时进行二次开发
+- 底层：采用freeswitch并进行了二次开发
+- 数据层：采用redis、mariadb和MongoDB
 
 
 ### 系统功能
@@ -20,9 +21,10 @@
 3. 支持多种客户端类型，包括：webRTC、sip客户端
 4. 支持静态坐席、动态坐席
 5. 支持多租户模式，免费版本只开放了1个组织
-6. 支持IVR、呼入队列、时间判断等
+6. 支持IVR、呼入队列、时间判断、IP白名单、通话评价等
 7. 呼入规则采用可视化配置，操作方便
 8. 支持自定义客户信息，可随意增加、减少、修改字段信息
+9. 通话记录表采用了自动分表设计，单表可容纳20条数据
 
 #### 安装教程
 1. 安装包下载地址为：https://pan.baidu.com/s/1ZvH6sjthjIcqa2Ygx76N8A?pwd=6t59

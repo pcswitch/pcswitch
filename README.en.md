@@ -2,7 +2,7 @@
 
 ####Introduction
 
--PCSwitch call system, permanently free to use, supports intelligent robots (using Deepseek interface), web interface (accessing other systems), ASR (speech recognition), TTS (speech synthesis), custom voice robots webRTC、IVR、 Inbound queue, inbound process visualization management, customizable fields for customer information, and more
+-PCSwitch call system, permanently free to use, supports intelligent robots (using Deepseek interface), web interface (accessing other systems), ASR (speech recognition), TTS (speech synthesis), custom voice robots webRTC、IVR、 Inbound queue, inbound process visualization management, call evaluation, IP whitelist, customizable fields for customer information, and more
 -Official website:[ https://www.pcswitch.cn ]( https://www.pcswitch.cn )
 -Trial URL:[ https://demo.pcswitch.cn ]( https://demo.pcswitch.cn )
 
@@ -11,7 +11,8 @@
 
 -Front end: using Vue+elementUI
 -Backend: Developed using Golang language
--Bottom layer: Using Freeswitch for secondary development simultaneously
+-Bottom layer: Adopting Freeswitch and undergoing secondary development
+-Data layer: using Redis, Mariadb, and MongoDB
 
 
 ###System functions
@@ -20,13 +21,14 @@
 3. Supports multiple client types, including webRTC and SIP clients
 4. Support static and dynamic seating
 5. Supports multi tenant mode, the free version is only open to one organization
-6. Support IVR, incoming queue, time judgment, etc
+6. Support IVR, incoming queue, time judgment, IP whitelist, call evaluation, etc
 7. The incoming call rule adopts visual configuration, which is easy to operate
 8. Support custom customer information, allowing for the addition, reduction, and modification of field information at will
+9. The call record table adopts an automatic sorting design, and a single table can accommodate 20 pieces of data
 
 ####Installation tutorial
 1. The installation package download address is: https://pan.baidu.com/s/1ZvH6sjthjIcqa2Ygx76N8A?pwd=6t59
-2. It is recommended to use CentOS or Rocky operating system for installation
+2. It is recommended to install using CentOS or Rocky operating systems
 3. Download the pcswitch installation package
 4. Extract pcswitch, for example, to the/opt directory
 5. Run the following command to install:
@@ -79,8 +81,8 @@ The intelligent robot adopts the Deepseek interface. However, due to the lack of
 ! [Enter image description] (images/20250411153349. png)
 2. WebRTC registration
 ! [Enter image description] (images/20250411153431. png)
-3.Pop On Screen
-![输入图片说明](images/20250713.png)
+3. Pop up screen for incoming calls
+! [Enter image description] (images/20250713. png)
 4. Backend management
 ! [Enter image description] (images/20250516132532. png)
 5. Visualization configuration of incoming call rules
