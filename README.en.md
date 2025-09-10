@@ -96,9 +96,9 @@ The intelligent robot adopts the Deepseek interface. However, due to the lack of
 ![Enter image description](images/intellcallout.png)
 ![Enter image description](images/intellcalloutflow.png)
 
-####Problem feedback
+#### Problem feedback
 
--WeChat:! [Input Image Description] (images/wx. png)
--Email address: kf@pcswitch.cn
+- WeChat: ![Input Image Description](images/wx.png)
+- Email address: kf@pcswitch.cn
 
 
