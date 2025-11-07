@@ -77,19 +77,21 @@ The intelligent robot adopts the Deepseek interface. However, due to the lack of
 
 ####System Display
 1. Login interface
-! [Enter image description] (images/20250411153349. png)
+! [Enter image description] (images/20250411153349.png)
 2. WebRTC registration
-! [Enter image description] (images/20250411153431. png)
+! [Enter image description] (images/20250411153431.png)
 3. Backend management
-! [Enter image description] (images/20250516132532. png)
+! [Enter image description] (images/20250516132532.png)
 4. Visualization configuration of incoming call rules
-! [Enter image description] (images/20250516132751. png)
+! [Enter image description] (images/20250516132751.png)
 5. ASR and TTS processes
-! [Enter image description] (images/asrttspng)
+! [Enter image description] (images/asrtts.png)
 6. Intelligent robots
-! [Enter image description] (images/robot. png)
+! [Enter image description] (images/robot.png)
 7. Web interface
-! [Enter image description] (images/web. png)
+! [Enter image description] (images/web.png)
+8. Online Voice Customer Service
+! [Enter image description] (images/20251108002457.png)
 
 ####Problem feedback
 
