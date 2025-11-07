@@ -2,32 +2,32 @@
 
 #### 介绍
 
-- pcswitch呼叫系统，永久免费使用，支持智能机器人(采用deepseek接口),ASR(语音识别),TTS(语音合成),web接口(访问其他系统),webRTC,可视化呼入流程管理,语音机器人、webRTC、IVR、呼入队列、呼入流程可视化管理、通话评价、IP白名单、客户资料可自定义字段等等
+- pcswitch呼叫系统，永久免费使用，支持智能机器人(采用deepseek接口)、web接口(访问其他系统)、ASR(语音识别)、TTS(语音合成)、自定义语音机器人、webRTC、IVR、呼入队列、呼入流程可视化管理、客户资料可自定义字段等等
 - 官网：[https://www.pcswitch.cn](https://www.pcswitch.cn)
 - 试用网址：[https://demo.pcswitch.cn](https://demo.pcswitch.cn)
 
 
 #### 软件架构
 
-- 前端+后端+底层架构,可很方便扩展，支持高并发
-- 数据层：采用redis、mariadb和MongoDB
+- 前端：采用vue+elementUI
+- 后端：采用golang语言开发
+- 底层：采用freeswitch同时进行二次开发
 
 
 ### 系统功能
 1. 支持智能机器人(采用deepseek接口)、web接口(访问其他系统)
-2. 支持智能外呼(模块化可视化管理)、批量定时外呼
-3. 支持ASR(语音识别)、TTS(语音合成)，可自定义语音机器人
-4. 支持多种客户端类型，包括：webRTC、sip客户端
-5. 支持静态坐席、动态坐席
-6. 支持多租户模式，免费版本只开放了1个组织
-7. 支持IVR、呼入队列、时间判断、IP白名单、通话评价、异地号码自动加拨0等
-8. 呼入规则采用模块化可视化配置，操作方便
+2. 支持ASR(语音识别)、TTS(语音合成)，可自定义语音机器人
+3. 支持在线语音客服、自定义呼叫转移
+4. 支持IVR、呼入队列、时间判断、白名单、黑名单等
+5. 支持多种客户端类型，包括：webRTC、sip客户端
+6. 支持静态坐席、动态坐席
+7. 支持多租户模式，免费版本只开放了1个组织
+8. 呼入规则采用可视化配置，操作方便
 9. 支持自定义客户信息，可随意增加、减少、修改字段信息
-10. 通话记录表采用了自动分表设计，单表可容纳20亿条数据
 
 #### 安装教程
 1. 安装包下载地址为：https://pan.baidu.com/s/1ZvH6sjthjIcqa2Ygx76N8A?pwd=6t59
-2. 推荐使用Centos或Rocky操作系统安装
+2. 推荐使用centos7.9操作系统安装
 3. 下载pcswitch安装包
 4. 将pcswitch解压，比如解压到：/opt目录中
 5. 运行如下命令安装：
@@ -77,22 +77,19 @@
 
 #### 系统展示
 1. 登录界面
-![输入图片说明](images/logon.png)
+![输入图片说明](images/20250411153349.png)
 2. webRTC注册
-![输入图片说明](images/front.png)
-3.来电弹屏
-![输入图片说明](images/ringing.png)
-4. 后台管理
-![输入图片说明](images/backend.png)
-5. 呼入规则可视化配置
-![输入图片说明](images/base.png)
-6. ASR、TTS流程
+![输入图片说明](images/20250411153431.png)
+3. 后台管理
+![输入图片说明](images/20250516132532.png)
+4. 呼入规则可视化配置
+![输入图片说明](images/20250516132751.png)
+5. ASR、TTS流程
 ![输入图片说明](images/asrtts.png)
-7. 智能机器人
+6. 智能机器人
 ![输入图片说明](images/robot.png)
-8. 智能外呼
-![输入图片说明](images/intellcallout.png)
-![输入图片说明](images/intellcalloutflow.png)
+7. web接口
+![输入图片说明](images/web.png)
 
 #### 问题反馈
 
