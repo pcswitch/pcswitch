@@ -1,20 +1,20 @@
 # pcswitch
 
-####Introduction
+#### Introduction
 
--PCSwitch call system, permanently free to use, supports intelligent robots (using Deepseek interface), web interface (accessing other systems), ASR (speech recognition), TTS (speech synthesis), custom voice robots webRTC、IVR、 Inbound queue, inbound process visualization management, customizable fields for customer information, and more
--Official website:[ https://www.pcswitch.cn ]( https://www.pcswitch.cn )
--Trial URL:[ https://demo.pcswitch.cn ]( https://demo.pcswitch.cn )
-
-
-####Software Architecture
-
--Front end: using Vue+elementUI
--Backend: Developed using Golang language
--Bottom layer: Using Freeswitch for secondary development simultaneously
+- PCSwitch call system, permanently free to use, supports intelligent robots (using Deepseek interface), web interface (accessing other systems), ASR (speech recognition), TTS (speech synthesis), custom voice robots webRTC、IVR、 Inbound queue, inbound process visualization management, customizable fields for customer information, and more
+- Official website:[ https://www.pcswitch.cn ]( https://www.pcswitch.cn )
+- Trial URL:[ https://demo.pcswitch.cn ]( https://demo.pcswitch.cn )
 
 
-###System functions
+#### Software Architecture
+
+- Front end: using Vue+elementUI
+- Backend: Developed using Golang language
+- Bottom layer: Using Freeswitch for secondary development simultaneously
+
+
+### System functions
 1. Support for intelligent robots (using DeepSeek interface) and web interfaces (for accessing other systems)
 2. Supports ASR (Automatic Speech Recognition) and TTS (Text-to-Speech), with customizable voice robots
 3. Supports online voice customer service and custom call forwarding
@@ -25,7 +25,7 @@
 8. The inbound call rules adopt a visual configuration for convenient operation
 9. Supports custom customer information, allowing free addition, deletion, and modification of field data
 
-####Installation tutorial
+#### Installation tutorial
 1. The installation package download address is: https://pan.baidu.com/s/1ZvH6sjthjIcqa2Ygx76N8A?pwd=6t59
 2. It is recommended to use CentOS 7.9 operating system for installation
 3. Download the pcswitch installation package
@@ -68,34 +68,34 @@ At present, only Alibaba Cloud Intelligent Voice has been connected, and Alibaba
 11. Intelligent robots
 The intelligent robot adopts the Deepseek interface. However, due to the lack of stream mode and the relatively long return time of Deepseek, the intelligent robot currently needs to wait for some time during conversations. It is recommended to use private deployment of DeepSeek for production environments, while training models for specific environments.
 
-####Instructions for use
+#### Instructions for use
 
 1. This version is a free version, and the system has been initialized and configured after installation, including 3 extensions, etc
 2. The system defaults to using private certificates, which users can replace with official certificates
 3. The system does not have a gateway configured by default, and users need to configure the gateway themselves
 4. Default account/password: admin/a2f55ef976bcf8b0ae
 
-####System Display
+#### System Display
 1. Login interface
-! [Enter image description] (images/20250411153349.png)
+![Enter image description](images/20250411153349.png)
 2. WebRTC registration
-! [Enter image description] (images/20250411153431.png)
+![Enter image description](images/20250411153431.png)
 3. Backend management
-! [Enter image description] (images/20250516132532.png)
+![Enter image description](images/20250516132532.png)
 4. Visualization configuration of incoming call rules
-! [Enter image description] (images/20250516132751.png)
+![Enter image description](images/20250516132751.png)
 5. ASR and TTS processes
-! [Enter image description] (images/asrtts.png)
+![Enter image description](images/asrtts.png)
 6. Intelligent robots
-! [Enter image description] (images/robot.png)
+![Enter image description](images/robot.png)
 7. Web interface
-! [Enter image description] (images/web.png)
+![Enter image description](images/web.png)
 8. Online Voice Customer Service
-! [Enter image description] (images/20251108002457.png)
+![Enter image description](images/20251108002457.png)
 
-####Problem feedback
+#### Problem feedback
 
--WeChat:! [Input Image Description] (images/wx. png)
--Email address: kf@pcswitch.cn
+- WeChat:![Input Image Description](images/wx.png)
+- Email address: kf@pcswitch.cn
 
 
