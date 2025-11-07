@@ -2,7 +2,7 @@
 
 #### Introduction
 
-- PCSwitch call system, permanently free to use, supports intelligent robots (using Deepseek interface), web interface (accessing other systems), ASR (speech recognition), TTS (speech synthesis), custom voice robots webRTC、IVR、 Inbound queue, inbound process visualization management, customizable fields for customer information, and more
+- PCSwitch Call System, permanently free to use, supports smart robots (DeepSeek interface), ASR (Speech Recognition), TTS (Text-to-Speech), intelligent outbound calling (modular visual management), batch outbound calling, web interfaces (integration with other systems), WebRTC, inbound call flows (modular visual management), voice robots, WebRTC, IVR, inbound call queues, inbound call flow visual management, online voice customer service, call evaluation, call transfer, whitelists, blacklists, customizable customer profile fields, and more
 - Official website:[ https://www.pcswitch.cn ]( https://www.pcswitch.cn )
 - Trial URL:[ https://demo.pcswitch.cn ]( https://demo.pcswitch.cn )
 

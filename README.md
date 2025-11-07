@@ -2,7 +2,7 @@
 
 #### 介绍
 
-- pcswitch呼叫系统，永久免费使用，支持智能机器人(采用deepseek接口)、web接口(访问其他系统)、ASR(语音识别)、TTS(语音合成)、自定义语音机器人、webRTC、IVR、呼入队列、呼入流程可视化管理、客户资料可自定义字段等等
+- pcswitch呼叫系统，永久免费使用，支持智能机器人(采用deepseek接口)、ASR(语音识别)、TTS(语音合成)、智能外呼(模块化可视化管理)、批量外呼、web接口(集成其他系统)、webRTC、呼入流程(模块化可视化管理)、语音机器人、webRTC、IVR、呼入队列、呼入流程可视化管理、在线语音客服、通话评价、呼叫转移、白名单、黑名单、客户资料可自定义字段等等
 - 官网：[https://www.pcswitch.cn](https://www.pcswitch.cn)
 - 试用网址：[https://demo.pcswitch.cn](https://demo.pcswitch.cn)
 
