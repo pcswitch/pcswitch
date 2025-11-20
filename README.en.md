@@ -90,9 +90,11 @@ The intelligent robot adopts the Deepseek interface. However, due to the lack of
 ![Enter image description](images/robot.png)
 7. Web interface
 ![Enter image description](images/web.png)
-8. Online Voice Customer Service
+8. Intelligent Outbound Calling
+![输入图片说明](images/intellcallout.png)
+![输入图片说明](images/intellcalloutflow.png)
+9. Online Voice Customer Service
 ![Enter image description](images/20251108002457.png)
-
 #### Problem feedback
 
 - WeChat:![Input Image Description](images/wx.png)

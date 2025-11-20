@@ -90,7 +90,10 @@
 ![输入图片说明](images/robot.png)
 7. web接口
 ![输入图片说明](images/web.png)
-8. 在线语音客服
+8. 智能外呼
+![输入图片说明](images/intellcallout.png)
+![输入图片说明](images/intellcalloutflow.png)
+9. 在线语音客服
 ![输入图片说明](images/20251108002457.png)
 
 #### 问题反馈
