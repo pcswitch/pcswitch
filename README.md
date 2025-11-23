@@ -8,10 +8,9 @@
 
 
 #### 软件架构
+- 前端+后端+底层架构,可很方便扩展，支持高并发
+- 数据层：采用redis、mariadb和MongoDB
 
-- 前端：采用vue+elementUI
-- 后端：采用golang语言开发
-- 底层：采用freeswitch同时进行二次开发
 
 
 ### 系统功能

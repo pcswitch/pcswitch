@@ -8,10 +8,9 @@
 
 
 #### Software Architecture
+- Front end+backend+underlying architecture, easy to expand, supports high concurrency
+- Data layer: using Redis, Mariadb, and MongoDB
 
-- Front end: using Vue+elementUI
-- Backend: Developed using Golang language
-- Bottom layer: Using Freeswitch for secondary development simultaneously
 
 
 ### System functions
