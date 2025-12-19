@@ -2,7 +2,7 @@
 
 #### Introduction
 
-- PCSwitch Call System, permanently free to use, supports smart robots (DeepSeek interface), ASR (Speech Recognition), TTS (Text-to-Speech), intelligent outbound calling (modular visual management), batch outbound calling, web interfaces (integration with other systems), WebRTC, inbound call flows (modular visual management), voice robots, WebRTC, IVR, inbound call queues, inbound call flow visual management, online voice customer service, call evaluation, call transfer, whitelists, blacklists, customizable customer profile fields, and more
+- PCSwitch Call System, permanently free to use, supports smart robots (DeepSeek interface), ASR (Speech Recognition), TTS (Text-to-Speech), intelligent outbound calling (modular visual management), batch outbound calling, web interfaces (integration with other systems), WebRTC, inbound call flows (modular visual management), voice robots, IVR, inbound call queues, inbound call flow visual management, online voice customer service, call evaluation, call transfer, whitelists, blacklists, customizable customer profile fields, and more
 - Official website:[ https://www.pcswitch.cn ]( https://www.pcswitch.cn )
 - Trial URL:[ https://demo.pcswitch.cn ]( https://demo.pcswitch.cn )
 
@@ -72,7 +72,7 @@ The intelligent robot adopts the Deepseek interface. However, due to the lack of
 1. This version is a free version, and the system has been initialized and configured after installation, including 3 extensions, etc
 2. The system defaults to using private certificates, which users can replace with official certificates
 3. The system does not have a gateway configured by default, and users need to configure the gateway themselves
-4. Default account/password: admin/a2f55ef976bcf8b0ae
+4. Default account/password: admin/a2f55ef9-rH19Mo7HGo(
 
 #### System Display
 1. Login interface
