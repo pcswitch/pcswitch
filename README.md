@@ -80,7 +80,8 @@
 2. webRTC注册
 ![输入图片说明](images/20250411153431.png)
 3. 后台管理
-![输入图片说明](images/20250516132532.png)
+![输入图片说明](images/dashboard01.png)
+![输入图片说明](images/dashboard02.png)
 4. 呼入规则可视化配置
 ![输入图片说明](images/20250516132751.png)
 5. ASR、TTS流程
